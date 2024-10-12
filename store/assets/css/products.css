@@ -1,0 +1,27 @@
+.product-section{
+    display: flex;
+    justify-content: center;
+}
+.product-section > div{
+    background-color: #333;
+    padding: 1vw;
+}
+
+.products-container{
+    width: 80vw;
+
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.products-container a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.products-container > a >img{
+    width: 10vw;
+}
